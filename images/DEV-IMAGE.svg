@@ -1,0 +1,37 @@
+<svg width="527" height="291" viewBox="0 0 527 291" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_370_36)">
+<rect width="527" height="291" rx="10" fill="#1F264E"/>
+<circle cx="16.5" cy="12.5" r="5.5" fill="#B80000"/>
+<circle cx="30.5" cy="12.5" r="5.5" fill="#F4D566"/>
+<circle cx="44.5" cy="12.5" r="5.5" fill="#75D57E"/>
+<rect y="24" width="81" height="267" fill="black" fill-opacity="0.3"/>
+<rect x="81" y="24" width="446" height="312" fill="#545454" fill-opacity="0.3"/>
+<rect x="89" y="35" width="55" height="9" rx="4.5" fill="#FF00C7"/>
+<rect x="148" y="35" width="55" height="9" rx="4.5" fill="#72FF78"/>
+<rect x="187" y="200" width="55" height="9" rx="4.5" fill="#72FF78"/>
+<rect x="11" y="35" width="62" height="9" rx="4.5" fill="#565656" fill-opacity="0.5"/>
+<rect x="11" y="50" width="62" height="9" rx="4.5" fill="#565656" fill-opacity="0.5"/>
+<rect x="11" y="65" width="62" height="9" rx="4.5" fill="#565656" fill-opacity="0.5"/>
+<rect x="11" y="80" width="62" height="9" rx="4.5" fill="#565656" fill-opacity="0.5"/>
+<rect x="11" y="95" width="62" height="9" rx="4.5" fill="#565656" fill-opacity="0.5"/>
+<rect x="89" y="50" width="180" height="9" rx="4.5" fill="#FCFF79"/>
+<rect x="89" y="65" width="180" height="9" rx="4.5" fill="#FCFF79"/>
+<rect x="89" y="80" width="180" height="9" rx="4.5" fill="#FCFF79"/>
+<rect x="89" y="110" width="45" height="9" rx="4.5" fill="#FF00C7"/>
+<rect x="89" y="125" width="232" height="9" rx="4.5" fill="#FCFF79"/>
+<rect x="89" y="140" width="232" height="9" rx="4.5" fill="#FCFF79"/>
+<rect x="89" y="155" width="232" height="9" rx="4.5" fill="#FCFF79"/>
+<rect x="89" y="200" width="92" height="9" rx="4.5" fill="#FF00C7"/>
+<rect x="89" y="235" width="118" height="9" rx="4.5" fill="#D9D9D9" fill-opacity="0.5"/>
+<mask id="path-24-inside-1_370_36" fill="white">
+<path d="M81 226H527V291H81V226Z"/>
+</mask>
+<path d="M81 226H527V291H81V226Z" fill="#D9D9D9" fill-opacity="0.3"/>
+<path d="M81 227H527V225H81V227Z" fill="#9747FF" mask="url(#path-24-inside-1_370_36)"/>
+</g>
+<defs>
+<clipPath id="clip0_370_36">
+<rect width="527" height="291" rx="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>
