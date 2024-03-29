@@ -744,6 +744,14 @@ a {
   overflow: hidden;
 }
 
+.contact-header-description.slideup {
+  animation-delay: .25s;
+}
+
+.contact-form-block.slideup {
+  animation-delay: .5s;
+}
+
 .scaleup {
   animation-name: scaleup;
   animation-duration: .5s;
@@ -811,14 +819,6 @@ a {
 
   .checkbox-wrapper {
     padding: .6rem .7rem;
-  }
-
-  .contact-header-description.slideup {
-    animation-delay: .25s;
-  }
-
-  .contact-form-block.slideup {
-    animation-delay: .5s;
   }
 }
 
