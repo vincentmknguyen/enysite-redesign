@@ -837,8 +837,16 @@ a {
     font-size: 4rem;
   }
 
+  .h1.slideup {
+    animation-name: slideup;
+  }
+
   .h1-light {
     font-size: 4.6vw;
+  }
+
+  .h1-light.slideup {
+    animation-name: slideup;
   }
 
   .nav-links.footer-links {
@@ -894,6 +902,14 @@ a {
   .footer-grid {
     grid-column-gap: 12px;
     grid-row-gap: 12px;
+  }
+
+  .slideup {
+    animation-name: none;
+  }
+
+  .hero_span.slideup, .contact-header-description.slideup, .contact-form-block.slideup {
+    animation-name: slideup;
   }
 }
 
