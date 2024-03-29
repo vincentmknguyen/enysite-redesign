@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Fri Mar 29 2024 08:49:05 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Fri Mar 29 2024 09:33:35 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6604c55a373a05e121af8e4e" data-wf-site="66024a2f8fe5aa38d3602ca4" lang="en">
 <head>
   <meta charset="utf-8">
@@ -224,6 +224,29 @@ $("[data-btn='wrap']").each(function () {
     let percentTop = getPercentTop($(this), e);
     let percentLeft = getPercentLeft($(this), e);
     gsap.to(clipEl, { clipPath: `circle(0% at ${percentLeft}% ${percentTop}%)`, overwrite: true, duration: durationSetting, ease: easeSetting });
+  });
+});
+</script>
+  <script>
+window.addEventListener("DOMContentLoaded", (event) => {
+  document.querySelectorAll("[data-scroll-trigger]").forEach((trigger) => {
+    const targetClasses = trigger.getAttribute("data-scroll-targets");
+    if (targetClasses !== undefined) {
+      const targetElements = trigger.querySelectorAll(targetClasses);
+      const handleIntersection = (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            targetElements.forEach((target) => {
+              const animationName = window.getComputedStyle(target).animationName;
+              target.style.animationName = "none";
+              void target.offsetWidth;
+              target.style.animationName = animationName;
+            });
+          }
+        });
+      };
+      new IntersectionObserver(handleIntersection).observe(trigger);
+    }
   });
 });
 </script>
