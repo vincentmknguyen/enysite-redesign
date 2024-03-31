@@ -220,6 +220,7 @@ a {
 .nav-links.footer-links {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  margin-left: -4px;
   font-size: 14px;
 }
 
