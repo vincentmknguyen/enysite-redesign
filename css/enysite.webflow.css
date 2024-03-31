@@ -3,9 +3,9 @@
   --black: black;
   --blue: #2e42ff;
   --button-radius: 100px;
+  --yellow: #fcff79;
   --purple: #672fb1;
   --green: #aafca9;
-  --yellow: #fcff79;
   --grey: #bababa;
 }
 
@@ -180,6 +180,10 @@ a {
   color: var(--black);
   background-color: rgba(46, 66, 255, 0);
   border: 1px solid #000;
+}
+
+.button.ghost:hover {
+  background-color: var(--yellow);
 }
 
 .navbar {
@@ -660,7 +664,7 @@ a {
 }
 
 .checkbox-wrapper:hover {
-  background-color: var(--yellow);
+  background-color: rgba(186, 186, 186, .39);
 }
 
 .checkbox {
@@ -911,6 +915,10 @@ a {
 
   .hero_span.slideup, .contact-header-description.slideup, .contact-form-block.slideup {
     animation-name: slideup;
+  }
+
+  .scaleup {
+    animation-name: none;
   }
 }
 
